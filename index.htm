@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>parachute regiment</title>
+<link rel="icon" type="image/ico" href="images (11).jpg" />
+
+<!-- Styles -->	
+<style>
+body {
+  background-image: url(para.png);
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+div.a {
+  text-align: center;
+}
+h1 {
+  color:#FF0000 ;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+.active, .dot:hover {
+  background-color: #bbb;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+h2 {
+  color:#FF0000 ;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+h1 {
+  background-color: #80ced6;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#contact">Contact</a>
+  <a href="file:///C:/Users/LENOVO/Desktop/website/about.htm">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/LENOVO/Desktop/website/image.htm">image</a>
+      <a href="file:///C:/Users/LENOVO/Desktop/website/video.htm">video</a>
+      <a href="file:///C:/Users/LENOVO/Desktop/website/2%20page.htm">mission</a>
+    </div>
+  </div> 
+</div>
+
+<!-- HTML -->
+<div class="a">
+<h1>" Mens are made out of boys"</h1>
+<p></p>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="download (12).jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="download (13).jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="download (14).jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<audio controls>
+  <source src="para audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<h2>PARACHUTE REGIMENT</h2>
+<p>The first Indian airborne formation was the British Indian Army's 50th Parachute Brigade raised on 29 October 1941, consisting of 151 Parachute Battalion (consisting of British troops), 152 Parachute Battalion (consisting of Indian troops) and 153 Parachute Battalion (consisting of Gurkha troops) alongside other support units.
+
+Lt. (later Col.) A.G. Rangaraj, MVC, of the Indian Medical Service and RMO of 152 Parachute Battalion, became the first Indian along with Hav. Maj. Mathura Singh to make a parachute descent. In 1942-43, the formation saw limited action at Nara against Pathan tribals in the North-West Frontier Province and conducted some intelligence-gathering missions in Burma, utilizing their somewhat limited airborne capabilities. In August 1943, the 154 Parachute Battalion was formed from troops from the 3rd battalion, 7th Gurkha Rifles and assigned to the 50th Parachute Brigade.[2] In March 1944, 151 Parachute Battalion was transferred to Britain, renamed as 156 Parachute Battalion, and assigned to the 4th Parachute Brigade of the 1st Airborne Division. The 50th Parachute Brigade, without 154 Parachute Battalion, then saw extensive action at Sangshak and later in the Imphal plains on the Burmese border against two reinforced Japanese divisions. 154 Parachute Battalion had not completed its air training, so stayed back to attain airborne status.
+
+During the Battle of Sangshak (21–26 March 1944), which lasted six days, the brigade suffered extremely heavy casualties, totalling 40 officers and VCOs and 545 other ranks, winning the appreciation of Lt. Gen. William Slim, the commander of the British Fourteenth Army. The breakout on the night of 26 March 1944 saw the remnants of the once-proud parachute brigade fight its way south and then west through the Japanese-infested jungles to Imphal. It achieved its task of preventing the flanking Japanese forces from surrounding Imphal and destroying IV Corps. Despite the losses it suffered in Sangshak, the paratroopers formed ad hoc units and continued to participate in actions to destroy Japanese forces near and around Imphal until its withdrawal at the end of July.
+
+Later in 1944, the brigade was expanded to form the 44th Indian Airborne Division as the original 9th Airborne Division was to be named because the 44th Armoured Division (whose services were no longer required in the Middle East theatre of war) was to be converted to an airborne unit. The two ad hoc brigades from the Chindit operations, 14th and the 77th, were included to form the division. The original plan was to have a battalion each of British troops, Indian troops and Gurkha troops in both the parachute brigades, with the 14th being converted for the airlanding role, though there is little known about gliderborne training or operations in India. 14th was later to be converted for the airborne role. The Governor General's Bodyguard (GGBG) joined the airborne fraternity and was named the 44th Airborne Division Reconnaissance Squadron. 9 Field Regiment (RIA) and other support units too were inducted. 60th Indian Parachute Field Ambulance which till then had been in Burma and performed well, was selected to augment the medical element for the formation. The 44th Indian Airborne Division was finally designated the 2nd Indian Airborne Division in 1945. The plan was to raise an entire airborne corps with the British 6th Airborne Division (of D-Day/Normandy fame) to be brought to India as the second divisional formation, but the war ended before it could materialize.
+
+The Indian Army's Parachute Regiment was officially formed on 1 March 1945, consisting of four battalions and an equal number of independent companies. The regiment's first airborne action was towards the end of the war, when a reinforced Gurkha Parachute Battalion was parachuted into Burma at Elephant Point on 1 May 1945, as part of Operation Dracula. The battalion performed well earning the respect of all, including the critics of airborne warfare. Despite the performance in Operation Dracula, the Parachute Regiment was disbanded in late 1945 as part of the reduction and restructuring of the post-war British Indian Army. However, they retained their airborne role and formed part of the airborne division.
+
+Indian independence
+After independence and partition, the airborne division was divided between the armies of India and newly formed Pakistan, with India retaining the Divisional HQ and the 50th and 77th Parachute Brigades, while the 14th Parachute Brigade went to Pakistan. The 77th Parachute Brigade was later disbanded. Thus, the Indian Army retained only one airborne formation, the 50th Parachute Brigade. This brigade consisted of three distinguished battalions from different regiments: the 1st battalion, Punjab Regiment (Para), the 3rd battalion, Maratha Light Infantry (Para), and the 1st battalion, Kumaon Regiment (Para). These battalions had been carrying out parachute duties after the disbandment of the regiment in 1945, and had continued to wear the uniform of their parent regiments except for a change in headgear to the maroon beret, and in order to distinguish them from the other battalions of their regiments, the word 'Para' was added after their names.</p>
+
+<img src="images (11).jpg" posi alt="Flowers in Chania" width="200" height="200"
+</body>
+</html>
